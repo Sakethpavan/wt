@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <usern>one</usern>
+        <pwd>1</pwd>
+    </user>
+    <user>
+        <usern>two</usern>
+        <pwd>2</pwd>
+    </user>
+    <user>
+        <usern>three</usern>
+        <pwd>3</pwd>
+    </user>
+    <user>
+        <usern>four</usern>
+        <pwd>4</pwd>
+    </user>
+    <user>
+        <usern>five</usern>
+        <pwd>5</pwd>
+    </user>
+    <user>
+        <usern>six</usern>
+        <pwd>6</pwd>
+    </user>
+    <user>
+        <usern>seven</usern>
+        <pwd>7</pwd>
+    </user>
+</users>
