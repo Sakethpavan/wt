@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Country name as Capital</title>
+        <style>
+            #capCountry{
+                color : red;
+                font-style : bold;
+                font-size : 12px;
+                text-transform : uppercase;
+            }
+
+        </style>
+    </head>
+        
+    <body>
+        <select id="country" onchange="getCap()">
+            <option value="india">India</option>
+            <option value="srilanka">Sri Lanka</option>
+            <option value="china">China</option>
+            <option value="uk">United Kingdom</option>
+        </select>
+        <div id="capCountry"></div>
+    
+        <script>
+            function getCap(){
+                document.getElementById("capCountry").innerHTML= document.getElementById("country").value;
+            }
+
+        </script>
+    </body>
+
+
+
+</html>
