@@ -2,7 +2,7 @@
     $user =  $_POST["user"];
     $pass  = $_POST["pass"];
     
-    $my_xml = simplexml_load_file("users.xml");
+    $my_xml = simplexml_load_file("users.xml") or die("Failed to load object");
 
     for($i=0;$i<count($my_xml);$i++)
     {
