@@ -10,6 +10,7 @@ public class EmployeeParsing
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
 		Document document = builder.parse(new File("User.xml"));
+		//document.getDocumentElement().normalize();
 		Element root = document.getDocumentElement();
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
